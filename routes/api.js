@@ -12,10 +12,8 @@ function createErrorObject(msg){
 		confirmation: 'fail',
 		message: msg
 	}
-
 	return error;
 }
-
 
 router.post('/:resource', function(req, res, next) {
 	var resource = req.params.resource;

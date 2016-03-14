@@ -11,7 +11,7 @@ var PadSchema = new mongoose.Schema({
 
 PadSchema.methods.summary = function() {
 	var info = {
-		'onwer':this.onwer,
+		'owner':this.owner,
 		'address':this.address,
 		'city':this.city,
 		'zip':this.zip,

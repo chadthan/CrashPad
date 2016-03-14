@@ -6,7 +6,7 @@ var ProfileSchema = new mongoose.Schema({
 	city: {type:String, lowercase:true, trim:true, default:''},
 	zip: {type:String, lowercase:true, trim:true, default:''},
 	state: {type:String, lowercase:true, trim:true, default:''},
-	email: {type:String, trim:true, default:''},
+	email: {type:String, lowercase:true, default:''},
 	password: {type:String, default:''}
 });
 

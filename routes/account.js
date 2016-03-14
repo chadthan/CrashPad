@@ -66,7 +66,7 @@ router.post('/:action', function(req, res, next) {
 	var action = req.params.action;
 	if (action == 'login'){
 		var loginCredentials = req.body;
-		var email = loginCredentials.email;
+		var email = loginCredentials.email.toLowerCase();
 
 		// find the profile with that email:
 		ProfileController.get({email:email}, true, function(err, results){

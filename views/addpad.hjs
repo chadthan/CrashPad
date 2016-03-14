@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Add New Pad</h1>
+    <form action="/api/pad" method="post">
+    	<input type="text" name="owner" placeholder="Owner" /><br />
+      <input type="text" name="address" placeholder="Address" /><br />
+    	<input type="text" name="city" placeholder="City" /><br />
+    	<input type="text" name="state" placeholder="State" /><br />
+    	<input type="text" name="zip" placeholder="Zip" /><br />
+    	<input type="text" name="rate" placeholder="Rate" /><br />
+    	<button type="submit">Add</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{firstName}}</h1>
+    <form action="/api/profile" method="put">
+    	<input type="text" name="firstName" value={{firstName}} placeholder="First Name" /><br />
+    	<input type="text" name="lastName" value={{lastName}} placeholder="Last Name" /><br />
+    	<input type="text" name="city" value={{city}} placeholder="City" /><br />
+    	<input type="text" name="state" value={{state}} placeholder="State" /><br />
+    	<input type="text" name="zip" value={{zip}} placeholder="Zip" /><br />
+    	<input type="text" name="email" value={{email}} placeholder="Email" /><br />
+    	<input type="text" name="password" value="" placeholder="Password" /><br />
+    	<button type="submit">Update</button>
+    </form>
+  </body>
+</html>

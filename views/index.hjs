@@ -89,9 +89,11 @@
                 <div class="slider-typography">
                     <div class="slider-text-middle-main">
                         <div class="slider-text-bottom slider-text-middle5 text-left animated fadeInUp">
-                            <span class="slider-title-big5 white-text">We believe hard work</span>
-                            <span class="slider-subtitle5 white-text">We believe in design,<br> strategy and web<br> technology</span><br>
+                            <span class="slider-title-big5 white-text">Need a place to crash tonight?</span>
+                            <span class="slider-subtitle5 white-text">Find nearby places <br> to crash!<br></span><br>
                             <div class="separator-line bg-yellow no-margin-lr no-margin-top xs-margin-bottom-ten"></div>
+                            <span class="slider-title-big5 white-text">Have a spare room?</span>
+                            <span class="slider-subtitle5 white-text">Earn some extra <br> Cash Tonight!<br></span><br>
                         </div>
                     </div>
                 </div>

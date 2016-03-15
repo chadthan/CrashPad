@@ -68,7 +68,7 @@
                                     <a href="/">Home <i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <li class="dropdown panel">
-                                    <a href="#collapse1">About <i class="fa fa-angle-down"></i></a>
+                                    <a href="#collapse1">Pads <i class="fa fa-angle-down"></i></a>
                                 </li>
                                 <li class="dropdown panel">
                                     <a href="/register">Join <i class="fa fa-angle-down"></i></a>
